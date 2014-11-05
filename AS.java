@@ -1,4 +1,9 @@
-package Taxi;
+/**
+ * AS est la classe comprenant toutes les infos pour un aller retour.
+ *
+ * @author Romain Locquet
+ * @version 1.0
+ */
 
 public class AS extends Tarif {
 

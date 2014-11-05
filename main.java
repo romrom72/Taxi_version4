@@ -1,4 +1,11 @@
-package Taxi;
+/**
+ * main est le programme principal qui va permettre la création des liste pour aller retour et aller simple, la saisie de l'utilisateur et le calcul du remboursement.
+ * Presence de la connection de la base de données
+ * @author BaptisteDeslaurier
+ * @version 1.0
+ */
+
+
 
 import java.sql.*;
 import java.util.ArrayList;

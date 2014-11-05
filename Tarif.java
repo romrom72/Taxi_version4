@@ -1,5 +1,9 @@
-package Taxi;
-
+/**
+ * Tarif est la classe comprenant toutes les infos pour un déplacement sans faire la distinction entre aller simple ou aller retour.
+ *
+ * @author Romain Locquet
+ * @version 1.0
+ */
 public class Tarif {
 
 	private int Dept;

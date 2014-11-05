@@ -1,9 +1,15 @@
-package Taxi;
+/**
+ * Calcul est la classe comprenant le calcul du remboursement, et la lecture du fichier.
+ *
+ * @author Romain Locquet
+ * @version 1.0
+ */
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.List;
+
 
 
 
@@ -19,7 +25,7 @@ public class Calcul
 
 
 	// Reprise des donnÃ©es du tableau pour les ajouter Ã  la liste.
-	public static void RepriseTableau(List<AR>AR, List<AS> AS)
+	/*public static void RepriseTableau(List<AR>AR, List<AS> AS)
 	{
 		String ligne;
 		String[] tableau;
@@ -51,8 +57,14 @@ public class Calcul
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-	}
+	}*/
 
+	
+	/**
+     * Retourne le montant du déplacement.
+     *
+     * @return un décimal prix, qui correspond au montant du remboursement.
+     */
 	public static double CalculTarifDepl(int i, Saisie saisies ,List<AR> AR , List<AS> AS) //calculer les frais
 	{
 		double prix = 0.0;

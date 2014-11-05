@@ -1,4 +1,10 @@
-package Taxi;
+/**
+ * Saisie est la classe comprenant les saisie de l'utilisateur.
+ *
+ * @author Romain Locquet
+ * @version 1.0
+ */
+
 
 import java.util.List;
 import java.util.Scanner;
